@@ -1,0 +1,11 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore C++ compiled binaries
+a.out
+raytracer
+*.o
+*.exe
+
+# Ignore the output images (They are too big)
+*.ppm
