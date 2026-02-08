@@ -2,10 +2,10 @@
 
 This is my implementation of the classic Ray Tracing guide using C++.
 
-## Current Progress: Chapter 5 (Rays)
-Implemented the camera and the background gradient (blue-to-white).
+## Current Progress: Chapter 6 (Surface Normals and Multiple Objects)
+Implemented the red sphere in the background gradient.
 
-![Chapter 4 result](output_chap4.png)
+![Chapter 5 result](output_chap5.png)
 
 ## How to Run
 1. Clone the repo.
