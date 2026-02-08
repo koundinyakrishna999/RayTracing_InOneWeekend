@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-color ray_color(const rat& r) {
+color ray_color(const ray& r) {
     vec3 unit_direction = unit_vector(r.direction());
     auto a = 0.5*(unit_direction.y() + 1.0);
     return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
@@ -36,7 +36,7 @@ int main() {
     // Calculate the horizontal and vertical delta vectors from pixel to pixel.
 
     auto pixel_delta_u = viewport_u / image_width;
-    auto pixel_delta_v - viewport_v / image_height;
+    auto pixel_delta_v = viewport_v / image_height;
 
     // Calculate the location of the upper left pixel.
 
